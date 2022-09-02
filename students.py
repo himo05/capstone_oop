@@ -8,11 +8,11 @@ class Student: # Crreate a student class
         return f'Student name: {self.name}, ID: {self.school_id}, GPA: {self.gpa}'
 
 
-def hagatanya():
+def main(): # main function
     himo = Student('Himo', 'abcdef', 3.9)
     print(himo.name)
     print(himo.school_id)
     print(himo.gpa)
     print(himo)
 
-hagatanya()
+main()

@@ -17,8 +17,8 @@ class Author:  # create author class
             book_list = 'No books'
         return f'Name: {self.name}. Books Published: {book_list}'
 
-        
-def main():
+
+def main(): 
     shakespeare = Author('William Shakespeare')
     shakespeare.publish('Hamlet')
     shakespeare.publish('Richard III')
