@@ -29,5 +29,6 @@ def main():
 
     himo = Author('Himo')
     print(himo)
+    print()
 
 main()
